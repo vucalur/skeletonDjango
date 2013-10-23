@@ -4,6 +4,12 @@ import os
 
 PROJECT_DIR = os.path.dirname(__file__)
 
+# pydic dictionaries directory
+PYDIC_DIR = PROJECT_DIR + os.sep + 'dictionaries'
+# current pydic dictionary
+CURRENT_PYDIC_NAME = 'sjp.pydic'
+
+
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
@@ -158,4 +164,4 @@ LOGGING = {
 }
 
 
-# JSONS_DIRECTORY = '/tmp/myJsons'	# default: temp dir (tempfile.gettempdir())
+JSONS_DIRECTORY = '/home/ork/myJsons'	# default: temp dir (tempfile.gettempdir())
