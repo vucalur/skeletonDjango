@@ -1,3 +1,5 @@
+.gitignore
 wibses
 .idea
 *.iml
+*.pyc

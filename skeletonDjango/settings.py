@@ -5,10 +5,7 @@ import os
 PROJECT_DIR = os.path.dirname(__file__)
 
 # pydic dictionaries directory
-PYDIC_DIR = PROJECT_DIR + os.sep + 'dictionaries'
-# current pydic dictionary
-CURRENT_PYDIC_NAME = 'sjp.pydic'
-
+PYDIC_STORAGES = [PROJECT_DIR + os.sep + 'dictionaries']
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
