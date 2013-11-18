@@ -6,6 +6,7 @@ PROJECT_DIR = os.path.dirname(__file__)
 
 # pydic dictionaries directory
 PYDIC_STORAGES = [PROJECT_DIR + os.sep + 'dictionaries']
+SCRIPT_STORAGE = PROJECT_DIR + os.sep + 'scripts'
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -127,6 +128,8 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
     'wibses',
+    'wibses.data_store',
+    'wibses.py_dict'
 )
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'

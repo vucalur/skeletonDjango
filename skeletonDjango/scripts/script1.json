@@ -1,0 +1,226 @@
+{
+  "params": {
+    "name": "Some Semantic script"
+  }, 
+  "sections": [
+    {
+      "type": "synthetic", 
+      "params": {
+        "threshold": 50
+      }, 
+      "sentences": [
+        {
+          "slots": [
+            {
+              "tokens": [
+                "zdrowy", 
+                "po\u017cycz\u0119"
+              ], 
+              "params": {
+                "obligatory": false, 
+                "threshold": 60, 
+                "name": "Sample slot"
+              }
+            }
+          ], 
+          "params": {
+            "obligatory": false, 
+            "threshold": 55, 
+            "name": "Sample Sentence"
+          }
+        }
+      ]
+    }, 
+    {
+      "type": "analytical", 
+      "params": {
+        "threshold": 50
+      }, 
+      "sentences": [
+        {
+          "slots": [
+            {
+              "tokens": [
+                "zdrowy", 
+                "zdrowy", 
+                "nera", 
+                "po\u017cycz\u0119"
+              ], 
+              "params": {
+                "obligatory": false, 
+                "threshold": 60, 
+                "name": "Sample slot"
+              }
+            }, 
+            {
+              "tokens": [
+                "zdrowy", 
+                "zdrowy", 
+                "nera", 
+                "po\u017cycz\u0119"
+              ], 
+              "params": {
+                "obligatory": false, 
+                "threshold": 60, 
+                "name": "Sample slot"
+              }
+            }
+          ], 
+          "params": {
+            "obligatory": false, 
+            "threshold": 55, 
+            "name": "Sample Sentence 1"
+          }
+        }, 
+        {
+          "slots": [
+            {
+              "tokens": [
+                "zdrowy", 
+                "zdrowy", 
+                "nera", 
+                "po\u017cycz\u0119"
+              ], 
+              "params": {
+                "obligatory": false, 
+                "threshold": 60, 
+                "name": "Sample slot"
+              }
+            }, 
+            {
+              "tokens": [
+                "zdrowy", 
+                "zdrowy", 
+                "nera", 
+                "po\u017cycz\u0119"
+              ], 
+              "params": {
+                "obligatory": false, 
+                "threshold": 60, 
+                "name": "Sample slot"
+              }
+            }
+          ], 
+          "params": {
+            "obligatory": false, 
+            "threshold": 55, 
+            "name": "Sample Sentence 2"
+          }
+        }
+      ]
+    }, 
+    {
+      "type": "circumstances", 
+      "params": {
+        "threshold": 50
+      }, 
+      "sentences": [
+        {
+          "slots": [
+            {
+              "tokens": [
+                "zdrowy", 
+                "zdrowy", 
+                "nera", 
+                "po\u017cycz\u0119"
+              ], 
+              "params": {
+                "obligatory": false, 
+                "threshold": 60, 
+                "name": "Sample slot"
+              }
+            }, 
+            {
+              "tokens": [
+                "zdrowy", 
+                "zdrowy", 
+                "nera", 
+                "po\u017cycz\u0119"
+              ], 
+              "params": {
+                "obligatory": false, 
+                "threshold": 60, 
+                "name": "Sample slot"
+              }
+            }
+          ], 
+          "params": {
+            "obligatory": false, 
+            "threshold": 55, 
+            "name": "Sample Sentence 1"
+          }
+        }, 
+        {
+          "slots": [
+            {
+              "tokens": [
+                "zdrowy", 
+                "zdrowy", 
+                "nera", 
+                "po\u017cycz\u0119"
+              ], 
+              "params": {
+                "obligatory": false, 
+                "threshold": 60, 
+                "name": "Sample slot"
+              }
+            }, 
+            {
+              "tokens": [
+                "zdrowy", 
+                "zdrowy", 
+                "nera", 
+                "po\u017cycz\u0119"
+              ], 
+              "params": {
+                "obligatory": false, 
+                "threshold": 60, 
+                "name": "Sample slot"
+              }
+            }
+          ], 
+          "params": {
+            "obligatory": false, 
+            "threshold": 55, 
+            "name": "Sample Sentence 2"
+          }
+        }, 
+        {
+          "slots": [
+            {
+              "tokens": [
+                "zdrowy", 
+                "zdrowy", 
+                "nera", 
+                "po\u017cycz\u0119"
+              ], 
+              "params": {
+                "obligatory": false, 
+                "threshold": 60, 
+                "name": "Sample slot"
+              }
+            }, 
+            {
+              "tokens": [
+                "zdrowy", 
+                "zdrowy", 
+                "nera", 
+                "po\u017cycz\u0119"
+              ], 
+              "params": {
+                "obligatory": false, 
+                "threshold": 60, 
+                "name": "Sample slot"
+              }
+            }
+          ], 
+          "params": {
+            "obligatory": false, 
+            "threshold": 55, 
+            "name": "Sample Sentence 3"
+          }
+        }
+      ]
+    }
+  ]
+}
