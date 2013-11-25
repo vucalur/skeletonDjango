@@ -7,6 +7,7 @@ PROJECT_DIR = os.path.dirname(__file__)
 # pydic dictionaries directory
 PYDIC_STORAGES = [PROJECT_DIR + os.sep + 'dictionaries']
 SCRIPT_STORAGE = PROJECT_DIR + os.sep + 'scripts'
+JSON_TEMPLATE_SCRIPT_FILENAME = PROJECT_DIR + os.sep + "configs" + os.sep + "empty_template.json"
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
