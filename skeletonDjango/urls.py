@@ -9,6 +9,8 @@ urlpatterns = patterns('',
     # url(r'^$', 'skeletonDjango.views.home', name='home'),
     # url(r'^skeletonDjango/', include('skeletonDjango.foo.urls')),
     url(r'^wibses/', include('wibses.urls', namespace='wibses')),
+    # TODO vucalur: temporary work-around for: http://stackoverflow.com/q/20760123/1432478
+    url(r'^fonts/', include('wibses.urls_fonts', namespace='wibses_fonts')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
